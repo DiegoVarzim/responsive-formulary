@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2? family= Inter:wght@100;200;300;400;500;600 & display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -107,5 +108,21 @@ body {
     box-shadow: 1px 1px 6px black;
 }
 
+.input-box input:hover {
+    background-color: white;
+}
 
+.input-box input:focus-visible {
+    outline: 1px solid blueviolet;
+}
 
+.input-box label,
+.gender-title h6 {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: black;
+}
+
+.input-box input::placeholder {
+    color: black;
+}
